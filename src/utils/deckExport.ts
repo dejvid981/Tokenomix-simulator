@@ -161,7 +161,7 @@ export const generateInvestorDeck = async (data: DeckExportData): Promise<void> 
       row.map(cellString => ({
         text: cellString,
         options: rowIndex === 0 
-          ? { bold: true, fill: { color: 'E5E7EB' }, color: '1E293B', align: 'center' } 
+          ? { bold: true, fill: { color: 'E5E7EB' }, color: '1E293B', align: 'center' as const } 
           : { fill: { color: 'F9FAFB' }, color: '374151' }
       }))
     );

@@ -25,10 +25,10 @@ const navItems: NavItem[] = [
     tooltip: "Launch Your Web3 Project"
   },
   {
-    title: "Token Valuation",
-    href: "/token-valuation",
+    title: "Financial Hub",
+    href: "/financial-hub",
     icon: TrendingUp,
-    tooltip: "AI-Powered Token Valuation"
+    tooltip: "Budget, Runway & Scenario Planning"
   },
   {
     title: "Reports",

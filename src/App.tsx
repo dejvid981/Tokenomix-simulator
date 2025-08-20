@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Toolkit from "./pages/Toolkit";
 import TokenValuation from "./pages/TokenValuation";
+import FinancialHub from "./pages/FinancialHub";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +23,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/toolkit" element={<Toolkit />} />
-          <Route path="/token-valuation" element={<TokenValuation />} />
+          <Route path="/financial-hub" element={<FinancialHub />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
