@@ -52,7 +52,7 @@ export function MainNav() {
         className="hidden md:flex items-center gap-2 text-lg font-semibold"
       >
         <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-          UnlockFi
+          SolFi Financial Hub
         </span>
       </Link>
       <TooltipProvider>
