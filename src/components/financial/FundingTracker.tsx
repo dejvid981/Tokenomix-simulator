@@ -71,7 +71,7 @@ export const FundingTracker = () => {
     };
 
     setFundingRounds([...fundingRounds, round]);
-    setNewRound({ name: "", amount: 0, type: "seed", dilution: 0 });
+    setNewRound({ name: "", amount: 0, type: "seed", dilution: 0, tokenPrice: undefined });
     toast.success("Funding round added successfully");
   };
 
@@ -152,7 +152,7 @@ export const FundingTracker = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
             <div>
               <Label htmlFor="round-name">Round Name</Label>
               <Input
@@ -184,6 +184,16 @@ export const FundingTracker = () => {
                   <SelectItem value="token-sale">Token Sale</SelectItem>
                 </SelectContent>
               </Select>
+            </div>
+            <div>
+              <Label htmlFor="token-price">Token Price ($)</Label>
+              <Input
+                type="number"
+                step="0.001"
+                placeholder="0.00"
+                value={newRound.tokenPrice || ""}
+                onChange={(e) => setNewRound({...newRound, tokenPrice: Number(e.target.value)})}
+              />
             </div>
             <div>
               <Label htmlFor="dilution">Dilution (%)</Label>
