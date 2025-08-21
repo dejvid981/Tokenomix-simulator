@@ -13,7 +13,6 @@ Most existing tools are either **too technical** or require deep **financial exp
 - Difficulty raising funding  
 
 **Tokenomix Simulator** solves this by providing a **user-friendly**, **open-source** platform for Solana builders to model, test, and share tokenomics strategies.  
-
 ---
 
 ## ✨ Features  
@@ -43,7 +42,7 @@ This project is built with:
 There are several ways to work with this project:  
 
 ### 1. **Use Lovable (recommended)**  
-- Visit the [Lovable Project](https://lovable.dev/projects/ae162258-420b-4050-8e5d-86f0776de6b0)  
+- Visit the Lovable 
 - Start prompting and editing directly  
 - Changes are automatically committed to this repo  
 
