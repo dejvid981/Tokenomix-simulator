@@ -2,7 +2,7 @@
 
 An open-source platform to help Solana builders design, simulate, and optimize tokenomics models with **real-time visualizations**, **data exports**, and **community-driven insights**.  
 
-> 🚀 Built by [Resomnium](https://linktr.ee/ResomniumConsultsMe) | [Lovable Project](https://lovable.dev/projects/ae162258-420b-4050-8e5d-86f0776de6b0)
+> 🚀 Built by [Resomnium](https://linktr.ee/ResomniumConsultsMe) |
 ## 🌐 Overview  
 
 Designing sustainable tokenomics is one of the biggest challenges for Web3 founders, DAOs, and Solana-based projects.  
