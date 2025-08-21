@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Home, Settings, Wrench, TrendingUp } from "lucide-react";
+import { Home, Wrench, TrendingUp } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
@@ -29,12 +29,6 @@ const navItems: NavItem[] = [
     href: "/financial-hub",
     icon: TrendingUp,
     tooltip: "Budget, Runway & Scenario Planning"
-  },
-  {
-    title: "Settings",
-    href: "/settings",
-    icon: Settings,
-    tooltip: "Multi-chain Settings"
   }
 ];
 
